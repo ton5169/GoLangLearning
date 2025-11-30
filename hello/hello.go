@@ -1,24 +1,11 @@
 package main
 
-import (
-	"fmt"
-	"log"
+import "fmt"
 
-	"github.com/ton5169/GoLangLearning/greetings"
-)
+func Hello() string {
+	return "Hello, world"
+}
 
 func main() {
-	log.SetPrefix("greetings: ")
-	log.SetFlags(0)
-
-	names := []string{"Gladys", "Samantha", "Darrin"}
-
-	messages, err := greetings.Hellos(names)
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Println(messages)
-
+	fmt.Println(Hello())
 }
