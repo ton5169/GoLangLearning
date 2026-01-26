@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "go.formatTool": "default",
+  "go.testExplorer.showDynamicSubtestsInEditor": false,
+  "go.useLanguageServer": true
+}
