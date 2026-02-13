@@ -51,7 +51,7 @@ func (d Dictionary) Delete(word string) error {
 	default:
 		return err
 	}
-
+	return nil
 }
 
 func (d Dictionary) Add(word, definition string) error {
